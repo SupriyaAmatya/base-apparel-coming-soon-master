@@ -59,8 +59,6 @@ body{
     font-weight: 600;
     line-height: 1.2;
     color: hsl(0, 6%, 24%);
-    transform: translateY(-200%);
-    animation: movein 1s ease forwards;
 }
 
 .hero h1 span{
@@ -137,13 +135,6 @@ button:hover{
 
 form.error .error-icon, form.error .error-msg{
     display: block;
-}
-
-/* Animations */
-@keyframes movein{
-    to{
-        transform: translateY(0);
-    }
 }
 
 
